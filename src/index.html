@@ -1,16 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="vewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>Antools</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;600&display=swap");
+        </style>
+        <script src="script.js"></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__nav">
+                    <div class="logo">
+                        <a href="#"><img class="logo-img" src="pictures/logo.svg" alt="Antools logo" /></a>
+                        <span class="logo-name">antools.</span>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="#">Home</a></li>
+                        <li class="nav-list-item">
+                            <a href="#">Categories</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#">My Collections</a>
+                        </li>
+                        <li class="nav-list-item"><a href="#">Blog</a></li>
+                    </ul>
+                    <div class="buttons">
+                        <button class="buttons-button">Login</button>
+                        <button class="buttons-button buttons-button--active">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </header>
 
-<body>
-    
-</body>
+            <div class="container-right">
+                <div class="hero">
+                    <div class="hero__content">
+                        <h1 class="hero__content-title">
+                            Awesome tools for Designer & Developer<span
+                                class="dot"
+                                >.</span
+                            >
+                        </h1>
+                        <p class="hero__content-paragraph">
+                            Antool is a web collection of information on paid or
+                            free Design and Development tools
+                        </p>
+                        <div class="hero__search">
+                            <div class="hero__search-input-field">
+                            <a href=""><img class="hero__search-icon" src="pictures/search.svg" alt="search icon" /></a>
+                                <input type="text" class="hero__search-input" name="search" placeholder="find more than 430+ tools..."/>
+                            </div>
+                            <button class="hero__search__button">Search</button>
+                        </div>
+                    </div>
+                    <ul class="hero__socials">
+                        <li class="hero__socials-item">
+                            <a href=""><img src="pictures/fb.svg" alt="facebook" /></a>
+                        </li>
+                        <li class="hero__socials-item">
+                            <a href=""><img src="pictures/instagram.svg" alt="instagram"/></a>
+                        </li>
+                        <li class="hero__socials-item">
+                            <a href=""><img src="pictures/twitter.svg" alt="twitter"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+            <div class="tools">
+                <h2>Most Popular Tools</h2>
+                <p class="tools__annotation">
+                    Tools for the best Designers and Developers most popularly
+                    used in the world
+                </p>
+                <div class="tools__grid">
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/figma.svg" alt="figma logo"/>
+                            <div class="grid__header-text">
+                                <h3>FIGMA</h3>
+                                <p>Free</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/like.svg" alt="Отметить как понравившееся" width="28px" height="28px"/>
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/sketch.svg" alt="sketch logo"/>
+                            <div class="grid__header-text">
+                                <h3>Sketch</h3>
+                                <p>Trial & Paid</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/set_like.svg" alt="Отметить как понравившееся" width="28px" height="28px"/>
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/vscode.svg" alt="visual studio code"/>
+                            <div class="grid__header-text">
+                                <h3>Visual Studio Code</h3>
+                                <p>Free</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/like.svg" alt="Отметить как понравившееся" width="28px" height="28px"/>
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/notion.svg" alt="Notion logo"/>
+                            <div class="grid__header-text">
+                                <h3>Notion</h3>
+                                <p>Free & Paid</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/like.svg" alt="Отметить как понравившееся" width="28px" height="28px"/>
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/slack.svg" alt="Slack logo"/>
+                            <div class="grid__header-text">
+                                <h3>Slack</h3>
+                                <p>Free & Paid</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/like.svg" alt="Отметить как понравившееся" width="28px" height="28px"
+                                    />
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid__header">
+                            <img class="grid__header-logo" src="pictures/in.svg" alt="Invision"/>
+                            <div class="grid__header-text">
+                                <h3>Invision</h3>
+                                <p>Free & Paid</p>
+                            </div>
+                        </div>
+
+                        <p class="grid__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                        <div class="grid__controls">
+                            <div class="grid__controls-buttons">
+                                <button class="like-button">
+                                    <img src="pictures/like.svg" alt="Отметить как понравившееся" width="28px"height="28px"/>
+                                </button>
+                                <button class="add-button">
+                                    <img src="pictures/catalog.svg" alt="Сохранить в коллекцию" width="30px" height="30px"/>
+                                </button>
+                            </div>
+
+                            <button class="grid__controls-visit">Visit</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="load-button">Load more</button>
+            </div>
+
+            <footer class="footer">
+                <h3>Trusted more than 150+ brand</h3>
+                <div class="footer__list">
+                    <div class="company">
+                        <a href="#"><img src="pictures/microsoft.svg" alt="Microsoft"/></a>
+                    </div>
+                    <div class="company">
+                        <a href="#"><img src="pictures/google.svg" alt="Google"/></a>
+                    </div>
+                    <div class="company">
+                        <a href="#"><img src="pictures/slack2.svg" alt="Slack"/></a>
+                    </div>
+                    <div class="company">
+                        <a href="#"><img src="pictures/wordpress.svg"alt="Wordpress"/></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
